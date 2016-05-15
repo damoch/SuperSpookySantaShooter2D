@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSpookySantaShooter2D.CSharp", "SuperSpookySantaShooter2D.CSharp.csproj", "{3772A832-B6A5-E65B-66E4-C7FE41E59414}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D1AD0149-10A9-425C-AC9B-3A70E09C0552}") = "SuperSpookySantaShooter2D", "Assembly-CSharp.csproj", "{B4AAF5EE-8F1C-CEED-F9BB-4F3F0F9C818B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3772A832-B6A5-E65B-66E4-C7FE41E59414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3772A832-B6A5-E65B-66E4-C7FE41E59414}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3772A832-B6A5-E65B-66E4-C7FE41E59414}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3772A832-B6A5-E65B-66E4-C7FE41E59414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AAF5EE-8F1C-CEED-F9BB-4F3F0F9C818B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AAF5EE-8F1C-CEED-F9BB-4F3F0F9C818B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AAF5EE-8F1C-CEED-F9BB-4F3F0F9C818B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AAF5EE-8F1C-CEED-F9BB-4F3F0F9C818B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

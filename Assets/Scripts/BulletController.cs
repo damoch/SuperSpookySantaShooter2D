@@ -13,8 +13,8 @@ public class BulletController : MonoBehaviour {
     void Update () {
 
         // transform.position = new Vector3(transform.position.x - .07f, transform.position.y, transform.position.z);
-        if(Spinned) transform.Translate(Vector2.right * .1f);
-        else if(!Spinned) transform.Translate(Vector2.left * .1f);
+        if (Spinned) {  transform.Translate(Vector2.right * .1f); }
+        else if (!Spinned) transform.Translate(Vector2.left * .1f);
 
     }
    

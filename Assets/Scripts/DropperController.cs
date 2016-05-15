@@ -27,6 +27,7 @@ public class DropperController : MonoBehaviour {
         if(maxTime>1)maxTime -= 0.1f;
         if (Player.isGameOver)
             maxTime = 5f;
+        Debug.Log(maxTime);
         StartCoroutine("FrequencyControler");
     }
 
